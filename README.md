@@ -32,3 +32,7 @@ A muon traveling through the endcap detectors has a chance to leave hits in four
 
 
 Using this information we have to estimate the momentum of the particle. Initially discretized boosted decision tree was used followed by Fully Connected Neural Networks (FCNNs) and Convolutional Neural Networks (CNNs). In this repo we try to explore more about the Graph Neural Networks(GNN) to estimate the momentum of the muon particles.
+
+## Datasets
+
+The dataset consists of more than 3 million muon events generated using Pythia and could be downloaded from the following [link](https://www.kaggle.com/datasets/ekurtoglu/cms-dataset)
