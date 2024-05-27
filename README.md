@@ -4,12 +4,16 @@
 ## Previous works
 
 Shravan Chaudhari 
+
+
  -> Boosted Top dataset was used which was also used in the paper https://arxiv.org/abs/2104.14659
 
  
  -> https://github.com/Shra1-25/GSoC2021_BoostedTopJets/tree/main All the scripts are here
 
 Emre Kurtoglu
+
+
  -> https://medium.com/@emre.kurt.96/gsoc-2021-graph-neural-networks-for-particle-momentum-estimation-in-the-cms-trigger-system-2216e4e4d005
 
 ## Overview of the project
