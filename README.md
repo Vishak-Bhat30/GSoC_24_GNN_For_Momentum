@@ -36,3 +36,16 @@ Using this information we have to estimate the momentum of the particle. Initial
 ## Datasets
 
 The dataset consists of 1179356 muon events generated using Pythia and could be downloaded from the following [link](https://www.kaggle.com/datasets/ekurtoglu/cms-dataset)
+
+
+## Dataset Creation
+
+### Each station as a node:
+![APPROACH2png](https://github.com/Vishak-Bhat30/GSoC_24_GNN_For_Momentum/assets/102585626/ae9ea64e-a429-4a0e-a1b1-518868fc0558)
+
+Here basically each station(4),is made a node of the graph and the node feature is the features recieved at the respective station(7)**
+    
+    Here,
+         Total nodes = 4
+         node feature length = 7
+         edges should be between these 4 nodes (Yet to find out the best way to decide across which two nodes there should be and edge)
