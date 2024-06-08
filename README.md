@@ -47,7 +47,7 @@ The dataset consists of 1179356 muon events generated using Pythia and could be 
 ### 1. [Each station as a node](https://github.com/Vishak-Bhat30/GSoC_24_GNN_For_Momentum/blob/main/Graph_creation/Converting_to_graphs_eachstation_node.ipynb):
 ![APPROACH2png](https://github.com/Vishak-Bhat30/GSoC_24_GNN_For_Momentum/assets/102585626/ae9ea64e-a429-4a0e-a1b1-518868fc0558)
 
-Here basically each station(4),is made a node of the graph and the node feature is the features recieved at the respective station(7)**
+**Here basically each station(4),is made a node of the graph and the node feature is the features recieved at the respective station(7)**
     
     Here,
          Total nodes = 4
@@ -55,5 +55,14 @@ Here basically each station(4),is made a node of the graph and the node feature 
          edges should be between these 4 nodes (Yet to find out the best way to decide across which two nodes there should be and edge)
 
 
+### 2. [Each feature as a node](https://github.com/Vishak-Bhat30/GSoC_24_GNN_For_Momentum/blob/main/Graph_creation/Converting_to_graphs_eachfeature_node.ipynb):
+![APPROACH1](https://github.com/Vishak-Bhat30/GSoC_24_GNN_For_Momentum/assets/102585626/1f295249-6a9f-4e28-9b2e-0ddb6d6a7e0e)
 
+
+**Here basically each feature obtianed from different stations, here 4 stations are made a node of the graph and the node feature is the values of this feature across the 4 different stations**
+
+    Here,
+       Total nodes = 7
+       node feature length = 4
+       edges should be between these 7 nodes (Yet to find out the best way to decide across which two nodes there should be and edge)
 
