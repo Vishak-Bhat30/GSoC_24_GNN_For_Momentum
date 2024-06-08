@@ -53,31 +53,6 @@ Here basically each station(4),is made a node of the graph and the node feature 
 
 ## ToDo:
 - [x] **Each station as a node : 
-    Here basically each station(4),is made a node of the graph and the node feature is the features recieved at the respective station(7)**
-    
-    Here,
-         Total nodes = 4
-         node feature length = 7
-         edges should be between these 4 nodes (Yet to find out the best way to decide across which two nodes there should be and edge)
-    
-    
----------------------------------------------------------------------------------------------------------------------------
 - [ ] **Each feature as a node :
-    Here basically each feature obtianed from different stations, here 4 stations are made a node of the graph and 
-    the node feature is the values of this feature across the 4 different stations**
-    
-    Here,
-         Total nodes = 7
-         node feature length = 4
-         edges should be between these 7 nodes (Yet to find out the best way to decide across which two nodes there should be and edge)
-         
----------------------------------------------------------------------------------------------------------------------------
 - [ ] **Each patch as a node :
-    Here basically the data is converted into 7*4 matrix and then would have to split this into patches and then the features of the noden would be the flattened pixel values in each patch**
-    
-    Here,
-         Total nodes = total_patches 
-         node feature length = pixels in each path
-         edges should be between these patch nodes (Yet to find out the best way to decide across which two nodes there should be and edge
-         
----------------------------------------------------------------------------------------------------------------------------
+
