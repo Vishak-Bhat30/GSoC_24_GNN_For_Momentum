@@ -24,14 +24,18 @@
 ## Training HyperParamters
 
 
+
+```bibtext
 criterion- 
+def pTLossTorch(y_pred,y_true):
+#     if not inv:
+#         y_pred = torch.pow(y_pred,-1)
+#         y_true = torch.pow(y_true,-1)
+    y_t = (y_true<80).type(torch.FloatTensor)*y_true.type(torch.FloatTensor) + (y_true>=80).type(torch.FloatTensor)*(y_true<250).type(torch.FloatTensor)*y_true.type(torch.FloatTensor)**2.4 + (y_true>=160).type(torch.FloatTensor)*10 
+    return torch.mean(y_t.type(torch.FloatTensor)*torch.pow((y_pred-y_true)/y_true,2).type(torch.FloatTensor))/250
 
-y_t = 
-- (y_true<80).type(torch.FloatTensor)*y_true.type(torch.FloatTensor) + 
-- (y_true>=80).type(torch.FloatTensor)*(y_true<250).type(torch.FloatTensor)*y_true.type(torch.FloatTensor)**2.4 + 
-- (y_true>=160).type(torch.FloatTensor)*10
+```
 
-`return torch.mean(y_t.type(torch.FloatTensor)*torch.pow((y_pred-y_true)/y_true,2).type(torch.FloatTensor))/250`
 
 `optimizer = torch.optim.Adam(model.parameters(), lr=0.01, weight_decay=5e-4)`
 
