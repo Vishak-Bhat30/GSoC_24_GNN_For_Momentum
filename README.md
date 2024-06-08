@@ -41,7 +41,7 @@ The dataset consists of 1179356 muon events generated using Pythia and could be 
 ## [Graph Dataset Creation](https://github.com/Vishak-Bhat30/GSoC_24_GNN_For_Momentum/blob/main/Graph_creation)
 
 - [x] **Each station as a node :** 
-- [ ] **Each feature as a node :**
+- [x] **Each feature as a node :**
 - [ ] **Each patch as a node :**
 
 ### 1. [Each station as a node](https://github.com/Vishak-Bhat30/GSoC_24_GNN_For_Momentum/blob/main/Graph_creation/Converting_to_graphs_eachstation_node.ipynb):
