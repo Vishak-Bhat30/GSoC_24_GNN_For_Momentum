@@ -36,6 +36,10 @@ def pTLossTorch(y_pred,y_true):
 ```
 
 
-`optimizer = torch.optim.Adam(model.parameters(), lr=0.01, weight_decay=5e-4)`
+```bibtext 
+optimizer = torch.optim.Adam(model.parameters(), lr=0.01, weight_decay=5e-4)
+```
 
-`lr_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, verbose=True, patience=1, factor=0.5)`
+```bibtext 
+lr_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, verbose=True, patience=1, factor=0.5)
+```
