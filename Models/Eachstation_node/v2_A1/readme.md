@@ -20,3 +20,26 @@
         (0): Linear(in_features=64, out_features=1, bias=True)
       ), nn=None)
     )
+
+## Training HyperParamters
+
+
+
+```bibtext
+criterion- 
+def pTLossTorch(y_pred,y_true):
+    y_t = (y_true<80).type(torch.FloatTensor)*y_true.type(torch.FloatTensor) +
+    (y_true>=80).type(torch.FloatTensor)*(y_true<250).type(torch.FloatTensor)*y_true.type(torch.FloatTensor)**2.4 +         
+    (y_true>=160).type(torch.FloatTensor)*10 
+    return torch.mean(y_t.type(torch.FloatTensor)*torch.pow((y_pred-y_true)/y_true,2).type(torch.FloatTensor))/250
+
+```
+
+
+```bibtext 
+optimizer = torch.optim.Adam(model.parameters(), lr=0.01, weight_decay=5e-4)
+```
+
+```bibtext 
+lr_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, verbose=True, patience=1, factor=0.5)
+```
