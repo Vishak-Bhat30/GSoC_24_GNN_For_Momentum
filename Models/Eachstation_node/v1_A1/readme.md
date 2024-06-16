@@ -37,7 +37,7 @@ def pTLossTorch(y_pred,y_true):
 
 
 ```bibtext 
-optimizer = torch.optim.Adam(model.parameters(), lr=0.01, weight_decay=5e-4)
+optimizer = torch.optim.Adam(model.parameters(), lr=0.001, weight_decay=5e-4)
 ```
 
 ```bibtext 
