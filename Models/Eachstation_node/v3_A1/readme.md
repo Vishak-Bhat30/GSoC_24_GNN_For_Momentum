@@ -21,7 +21,7 @@
     ), nn=None)
   )
 
-![computational_graph](https://github.com/Vishak-Bhat30/GSoC_24_GNN_For_Momentum/assets/102585626/82df5bfa-004c-48df-8211-505c77cedd68)
+
 
 
 ## Training HyperParamters
