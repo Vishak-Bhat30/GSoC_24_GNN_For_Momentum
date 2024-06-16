@@ -70,11 +70,11 @@ The dataset consists of 1179356 muon events generated using Pythia and could be 
 ## Experiment Results
 
 | Expt_NO | approach_of_graph  | Edges                    | Model                | Loss_fnc | loss | MAE  | Accuracy | F1 Score | Notebook |
-|---------|---------------------|--------------------------|----------------------|----------|------|------|----------|----------|----------|
+|---------|---------------------|------------------------------|----------------------|----------|------|------|----------|----------|----------|
 | 1       | each_station        | 0-1-2-3                  | 4 GCN                | pT Loss  | 3.83 | 43.21| 80.18    | 0.167    | [link](https://github.com/Vishak-Bhat30/GSoC_24_GNN_For_Momentum/blob/main/Models/Eachstation_node/v2_A1/eachstation_node_v2.ipynb)     |
 | 2       | each_station        | fully connected          | 4 MPL(embed-128)     | pT Loss  | 1.364| 15.82| 96.02    | 0.5529   | [link](https://github.com/Vishak-Bhat30/GSoC_24_GNN_For_Momentum/blob/main/Models/Eachstation_node/v3_A1/eachstation_node_v3.ipynb)     |
 | 3       | each_station        | fully connected          | 4 MPL(embed-64)      | pT Loss  |      |      |          |          | [link](https://github.com/Vishak-Bhat30/GSoC_24_GNN_For_Momentum/blob/main/Models/Eachstation_node/v4_A1/eachstation_node_v4.ipynb)     |
-| 4       | each_feature        | 0-1-2-3 || 2- (0,4, 5, 6)| 4 GCN                | pT Loss  | 4.38 | 45.33| 80.81    | 0.14     | [link](https://github.com/Vishak-Bhat30/GSoC_24_GNN_For_Momentum/blob/main/Models/Eachfeature_node/v1_A2/eachfeature_node_v1.ipynb)     |
+| 4       | each_feature        | 0-1-2-3 // 2- (0,4, 5, 6)| 4 GCN                | pT Loss  | 4.38 | 45.33| 80.81    | 0.14     | [link](https://github.com/Vishak-Bhat30/GSoC_24_GNN_For_Momentum/blob/main/Models/Eachfeature_node/v1_A2/eachfeature_node_v1.ipynb)     |
 | 5       | each_feature        | fully connected          | 4 MPL                | pT Loss  |      |      |          |          | [link](https://github.com/Vishak-Bhat30/GSoC_24_GNN_For_Momentum/blob/main/Models/Eachfeature_node/v2_A2/eachfeature_node_v2.ipynb)     |
 
 
