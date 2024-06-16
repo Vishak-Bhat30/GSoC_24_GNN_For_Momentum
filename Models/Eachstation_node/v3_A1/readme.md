@@ -3,7 +3,7 @@
     MODEL_GNN(
     (conv1): MPL()
     (conv2): MPL()
-    (conv3): MPL()0
+    (conv3): MPL()
     (conv4): MPL()
     (lin1): Linear(in_features=128, out_features=128, bias=True)
     (lin2): Linear(in_features=128, out_features=16, bias=True)
@@ -20,6 +20,9 @@
       (0): Linear(in_features=64, out_features=1, bias=True)
     ), nn=None)
   )
+
+![computational_graph](https://github.com/Vishak-Bhat30/GSoC_24_GNN_For_Momentum/assets/102585626/82df5bfa-004c-48df-8211-505c77cedd68)
+
 
 ## Training HyperParamters
 
