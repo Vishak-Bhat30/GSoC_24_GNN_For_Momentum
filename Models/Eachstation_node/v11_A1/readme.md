@@ -43,7 +43,7 @@ def CustompTLoss(output, target, lower_pt_limit):
 
 
 ```bibtext 
-optimizer = torch.optim.Adam(model.parameters(), lr=0.001, weight_decay=5e-4)
+optimizer = torch.optim.Adam(model.parameters(), lr=0.0002, weight_decay=5e-4)
 ```
 
 ```bibtext 
